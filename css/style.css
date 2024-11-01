@@ -1,0 +1,58 @@
+.st-insert-post {
+	margin: 0 0 1.5em;
+}
+.stip-box {
+	margin: 0 0 1em 0;
+}
+.stip-label {
+	display: block !important;
+	margin: 0 0 0.5em 0;
+}
+
+.stip-box input[type="text"] {
+	width: 250px;
+}
+.stip-box select {
+	width: 260px;
+	height: 30px;
+}
+.stip-box textarea {
+	width: 450px;
+	height: 150px;
+}
+.stip-box input[type="submit"] {
+	padding: 5px 20px;
+	cursor: pointer;
+}
+.stip-box input[type="text"],
+.stip-box textarea {
+	border: 1px solid #ccc !important;
+	color: #888 !important;
+	background: #f7f7f7 url(images/input-shadow.png) repeat-x !important;
+	padding: 5px !important;
+	cursor: text;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.stip-box input[type="text"]:hover,
+.stip-box input[type="text"]:focus,
+.stip-box textarea:hover,
+.stip-box textarea:focus {
+	border: 1px solid #aaa !important;
+	color: #000 !important;
+	background: #fff url(images/input-shadow.png) repeat-x !important;
+}
+
+#stip-message {
+	margin: 0 0 1.5em;
+	padding: 2em;
+}
+.stip-error {
+	border: 1px solid #f03;
+	color: #f03;
+}
+.stip-success {
+	border: 1px solid #CCCCCC;
+	color: #000000;
+}
